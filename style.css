@@ -56,6 +56,10 @@ section {
   pointer-events: none;
 }
 
+.sp-menu a {
+  display: block;
+}
+
 .sp-menu ul {
   margin-top: 56px;
   padding: 0 32px;
@@ -95,6 +99,8 @@ header.sp {
 
 header.sp.scrolled {
   background-color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 2px 8px rgb(204, 203, 203);
+  border-radius: 0 0 8px 8px;
 }
 
 header.sp nav {
@@ -215,6 +221,11 @@ header.sp nav {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.detail:nth-of-type(2) {
+  background-color: transparent;
+}
+
+
 .sd {
   background-image: url(img/helpdesk.jpg);
 }
@@ -225,7 +236,7 @@ header.sp nav {
 }
 
 .translate {
-  background-image: url(img/translate.jpg);
+  background-image: url(img/translate_new.jpg);
   background-position: right;
 }
 
@@ -388,6 +399,7 @@ table {
 footer {
   border-top: 1px solid #ddd;
   padding-top: 32px;
+  margin-top: 50px;
 }
 
 footer .container {
